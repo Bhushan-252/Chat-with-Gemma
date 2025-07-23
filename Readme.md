@@ -39,7 +39,7 @@ A full-stack AI chatbot app using Ollama for local model generation, PostgreSQL 
 ```bash
 git clone https://github.com/Bhushan-252/Chat-with-Gemma.git
 cd Chat-With-Gemma
-
+```
 ### 🔹 3. Backend Setup
 
 #### 📁 Navigate to the backend directory:
@@ -48,7 +48,7 @@ cd Chat-With-Gemma
     cd backend
     npm i or npm install
     npm start / node index.js
-
+```
 
 ### 🔹 4. Ollama Setup
 
