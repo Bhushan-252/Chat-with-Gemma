@@ -115,8 +115,8 @@ CREATE TABLE messages (
   timestamp TIMESTAMP DEFAULT NOW()
 );
 ```
-# Make sure your connection.js file contains your PostgreSQL credentials:
-# Replace your_db_user, your_database_name, and your_password with your actual values.
+#### Make sure your connection.js file contains your PostgreSQL credentials:
+#### Replace your_db_user, your_database_name, and your_password with your actual values.
 ```bash
 const pool = new Pool({
   user: 'your_db_user',
