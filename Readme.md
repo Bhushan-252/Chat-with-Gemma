@@ -36,15 +36,15 @@ A full-stack AI chatbot app using Ollama for local model generation, PostgreSQL 
 
 ### 🔹 2. Clone the Repository
 
-```bash```
-git clone https://your-repo-url
-cd your-project-folder
+```bash
+git clone https://github.com/Bhushan-252/Chat-with-Gemma.git
+cd Chat-With-Gemma
 
 ### 🔹 3. Backend Setup
 
 #### 📁 Navigate to the backend directory:
 
-```bash```
+```bash
     cd backend
     npm i or npm install
     npm start / node index.js
@@ -71,7 +71,7 @@ ollama run gemma3:1b
 
 API enpoint : http://localhost:11434/
 
-
+```
 ### 🔹 5. Frontend Setup
 
 #### 📁 Navigate to the frontend directory:
@@ -85,6 +85,7 @@ npm run dev
 
 #The frontend will start on: 
 http://localhost:5173
+```
 
 ### 🔹 How to Run SQL Queries in PostgreSQL
 
@@ -113,8 +114,10 @@ CREATE TABLE messages (
   content TEXT NOT NULL,
   timestamp TIMESTAMP DEFAULT NOW()
 );
-##Make sure your connection.js file contains your PostgreSQL credentials:
-#Replace your_db_user, your_database_name, and your_password with your actual values.
+```
+# Make sure your connection.js file contains your PostgreSQL credentials:
+# Replace your_db_user, your_database_name, and your_password with your actual values.
+```bash
 const pool = new Pool({
   user: 'your_db_user',
   host: 'localhost',
